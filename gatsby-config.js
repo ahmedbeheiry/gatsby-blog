@@ -37,38 +37,23 @@ module.exports = {
         background_color: `#faa`,
         theme_color: `cyan`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`,
       },
-	},
-		{
-		  resolve: `gatsby-plugin-prefetch-google-fonts`,
-		  options: {
-			fonts: [
-			  {
-				family: `PT Sans`,
-				variants: [`400`]
-			  },
-			  {
-				family: `PT Serif`,
-				variants: [`400`, `700`]
-			  },
-			],
-		  },
-		}
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: `PT Serif`,
-    //         variants: [`400`, `700`],
-    //       },
-    //       {
-	// 		family: `PT Sans`,
-	// 		variants: [`400`]
-    //       },
-    //     ],
-    //   },
-    // }`gatsby-transformer-remark`,
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `PT Sans`,
+            variants: [`400`],
+          },
+          {
+            family: `PT Serif`,
+            variants: [`400`, `700`],
+          },
+        ],
+      },
+    },
   ],
 }
