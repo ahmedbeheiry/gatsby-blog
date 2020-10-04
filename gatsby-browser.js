@@ -4,4 +4,6 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+ import './src/styles/general.css';
+ import './src/styles/post-card.css';
+ import './src/styles/post.css';

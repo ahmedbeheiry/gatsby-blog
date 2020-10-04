@@ -1,0 +1,34 @@
+.post-card {
+	margin-bottom: 4rem;
+}
+.post-card__title {
+	font-size: 1.5rem;
+}
+
+.post-card__meta {
+	color: #a3a3a3;
+}
+
+.post-card__meta span {
+	position: relative;
+	margin-right: 0.3rem;
+}
+
+.post-card__img {
+	height: 300px;
+	margin: 1rem auto;
+}
+
+.post-card__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.post-card__content {
+	line-height: 30px;
+	height: 90px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
